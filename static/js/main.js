@@ -20,7 +20,7 @@ for (let i = 0; i < foods.length; i++) {
 }
 
 // Course checkboxes
-const courses = ['BMGT408C', 'BMGT490H', 'CMSC429', 'CMSC335'];
+const courses = ['BMGT408C', 'BMGT490H', 'CMSC420', 'CMSC335'];
 const checkboxDiv = document.getElementById('checkboxes');
 for (let i = 0; i < courses.length; i++) {
     const label = document.createElement('label');
